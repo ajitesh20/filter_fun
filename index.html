@@ -4,20 +4,26 @@
 
 <script src="script.js"></script>
 
-<h1> Filter Fun</h1>
+<h1 id = "title"> Filter Fun</h1>
 <br>
 <canvas id="can"> </canvas>
 <br><br>
-<h3> Load Image </h3>
+<h3 id = "l1"> Load Image </h3>
 
 <input id="img" type="file" multiple="false" accept="image/*" onchange="uploadImage()">
 
-<h3> Choose Image </h3>
+<h3 id = "l2"> Choose Image </h3>
 <p>
 <input type = "button" value="GreyScale" onclick="GreyScale()">
 <input type = "button" value="Red" onclick = "Red()">
 <input type = "button" value="Rainbow" onclick = "RainbowImage()">
 <input type = "button" value="Blur" onclick = "BlurImage()">
 </p>
-
-<input type = "button" value="Reset Image" onclick = "ResetImage()">
+<p>
+    <h3 id = "l3"> Reset Image </h3>
+    <input type = "button" value="Reset Image" onclick = "ResetImage()">
+</p>
+<p>
+    <h3 id = "l4"> Change Theme </h3>
+    <input type = "button" value="change theme" onclick = "theme()">
+</p>
