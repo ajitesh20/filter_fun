@@ -197,6 +197,8 @@ function theme() {
     document.getElementById("title").style.color = "#ffffff";
     document.getElementById("l1").style.color = "#ffffff";
     document.getElementById("l2").style.color = "#ffffff";
+    document.getElementById("l3").style.color = "#ffffff";
+    document.getElementById("l4").style.color = "#ffffff";
     document.getElementById("img").style.color = "#ffffff";
     dark=0;
   }
@@ -206,6 +208,8 @@ function theme() {
     document.getElementById("title").style.color = "#000000";
     document.getElementById("l1").style.color = "#000000";
     document.getElementById("l2").style.color = "#000000";
+    document.getElementById("l3").style.color = "#000000";
+    document.getElementById("l4").style.color = "#000000";
     document.getElementById("img").style.color = "#000000";
     dark=1;
   }
