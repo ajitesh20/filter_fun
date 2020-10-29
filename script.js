@@ -4,6 +4,7 @@ var image3=null;
 var image4=null;
 var image5=null;
 var canvas=null;
+var dark = 1;
 
 function uploadImage()
 {
@@ -188,4 +189,24 @@ function RainbowImage()
 function ResetImage()
 {
   image5.drawTo(can);
+}
+
+function theme() {
+  if (dark == 1) {
+    document.body.style.backgroundColor = "#000000";
+    document.getElementById("title").style.color = "#ffffff";
+    document.getElementById("l1").style.color = "#ffffff";
+    document.getElementById("l2").style.color = "#ffffff";
+    document.getElementById("img").style.color = "#ffffff";
+    dark=0;
+  }
+
+  else{
+    document.body.style.backgroundColor = "#ffff66";
+    document.getElementById("title").style.color = "#000000";
+    document.getElementById("l1").style.color = "#000000";
+    document.getElementById("l2").style.color = "#000000";
+    document.getElementById("img").style.color = "#000000";
+    dark=1;
+  }
 }
